@@ -2,6 +2,8 @@
 
 Real-time grocery item detection via webcam using a YOLOv26 model, with automatic billing and printable receipt generation.
 
+**Live Demo:** [grocery-article-detection-with-yolo.vercel.app](https://grocery-article-detection-with-yolo.vercel.app)
+
 ---
 
 ## Prerequisites
@@ -10,7 +12,7 @@ Before starting, make sure you have the following installed:
 
 - [Python 3.10+](https://www.python.org/downloads/)
 - [Node.js 18+](https://nodejs.org/)
-- `model.pt` — place the trained YOLO model file inside the `backend/` folder (not included in this repo)
+- `model.pt` — included in the repo inside the `backend/` folder
 
 ---
 
@@ -68,6 +70,9 @@ The app will be available at `http://localhost:3000`.
 │   ├── main.py          # FastAPI app
 │   ├── detector.py      # YOLO inference logic
 │   ├── prices.json      # Item prices
+│   ├── model.pt         # Trained YOLOv26 model
+│   ├── Dockerfile       # Railway deployment
+│   ├── railway.toml     # Railway config
 │   └── requirements.txt
 └── frontend/
     ├── app/             # Next.js pages
