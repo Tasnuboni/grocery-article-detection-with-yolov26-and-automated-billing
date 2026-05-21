@@ -47,7 +47,7 @@ The app will be available at `http://localhost:3000`.
 5. Click **Stop Detect** — stops inference and generates the bill automatically
 6. Click **View Receipt** then **Print Receipt** to print
 
-> Objects must be visible for more than 10 frames with confidence above 65% to be added to the bill.
+> Objects must be visible for more than 5 frames with confidence above 65% to be added to the bill.
 
 ---
 
