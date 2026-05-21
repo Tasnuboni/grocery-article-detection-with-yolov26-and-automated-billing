@@ -5,7 +5,6 @@
 backend/__pycache__/
 backend/**/*.pyc
 backend/**/*.pyo
-backend/model.pt
 backend/.env
 backend/venv/
 backend/.venv/
