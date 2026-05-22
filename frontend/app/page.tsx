@@ -79,7 +79,7 @@ export default function Home() {
               inferenceTime={inferenceTime}
               lastScanTime={lastScanTime}
               onStart={startCamera}
-              onStop={stopCamera}
+              onStop={() => { stopCamera(); clearCart(); }}
               onStartDetect={() => startDetection(captureFrame)}
               onStopDetect={stopDetection}
             />
