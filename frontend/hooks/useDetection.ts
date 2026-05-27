@@ -4,7 +4,7 @@ import { Detection, CartItem } from "@/types";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
-const CONFIDENCE_THRESHOLD = 0.5;
+const CONFIDENCE_THRESHOLD = 0.75;
 const FRAME_THRESHOLD = 3;
 
 interface TrackedObject {
